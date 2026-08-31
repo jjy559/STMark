@@ -160,10 +160,8 @@ public class Watermark {
 
                 String Key2 = Util.getRandomAlphaString(10);
 
-                /*{//for eyewndr dataset
-                    parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 100));
-                }*/
-                {//for eyewndr dataset
+
+                {
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(0).size() / (numerator / denominator)), 1000));
                 }
 
@@ -232,7 +230,7 @@ public class Watermark {
                 String Key1 = Util.getRandomAlphaString(10);
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 1000));
                 }
 
@@ -295,7 +293,7 @@ public class Watermark {
                 String Key1 = Util.getRandomAlphaString(10);
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 1000));
                 }
 
@@ -354,7 +352,7 @@ public class Watermark {
                 String Key1 = Util.getRandomAlphaString(10);
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 1000));
                 }
 
@@ -414,7 +412,7 @@ public class Watermark {
                 String Key1 = Util.getRandomAlphaString(10);
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 1000));
                 }
 
@@ -479,8 +477,8 @@ public class Watermark {
                 String Key1 = Util.getRandomAlphaString(10);
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
-                    parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 100));
+                {
+                    parameters.add(new Parameters(Key1, (int) (d.dataValue.get(0).size() / (numerator / denominator)), 1000));
                 }
 
                 //data partition
@@ -542,7 +540,7 @@ public class Watermark {
 
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(0).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(1).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(2).size()/(numerator/denominator)),1000));
@@ -608,7 +606,7 @@ public class Watermark {
 
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(0).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(1).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(2).size()/(numerator/denominator)),1000));
@@ -671,7 +669,7 @@ public class Watermark {
 
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(0).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(1).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(2).size()/(numerator/denominator)),1000));
@@ -732,7 +730,7 @@ public class Watermark {
 
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(0).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(1).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(2).size()/(numerator/denominator)),1000));
@@ -796,7 +794,7 @@ public class Watermark {
 
                 String Key2 = Util.getRandomAlphaString(10);
 
-                {//for eyewndr dataset
+                {
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(0).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(1).size()/(numerator/denominator)),1000));
                     parameters.add(new Parameters(Util.getRandomAlphaString(10), (int) (d.dataValue.get(2).size()/(numerator/denominator)),1000));
